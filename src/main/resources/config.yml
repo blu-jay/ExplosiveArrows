@@ -1,0 +1,9 @@
+# How long should the TNT take to detonate in ticks? (80 ticks is normal tnt)
+fuseLength: 20
+
+# // MESSAGES \\
+# Note: You can use HEX color codes, just make sure they follow the following format -> &#FFFFFF Example: &#9232A3
+prefix: "&#9232A3[&#3FAFFFExplosiveArrows&#9232A3]&#3FAFFF "
+
+usePermissionMissing: "You don't have permission to use this."
+craftPermissionMissing: "You don't have permission to craft this."

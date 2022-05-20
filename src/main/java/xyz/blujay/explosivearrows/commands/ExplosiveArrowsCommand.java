@@ -1,0 +1,25 @@
+package xyz.blujay.explosivearrows.commands;
+
+import org.bukkit.ChatColor;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+import org.jetbrains.annotations.NotNull;
+
+public class ExplosiveArrowsCommand implements CommandExecutor {
+    @Override
+    public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
+
+        sender.sendMessage(
+                ChatColor.GRAY + "---------------------",
+                ChatColor.GRAY + "⋙ " + ChatColor.BLUE + "ExplosiveArrows",
+                ChatColor.GRAY + "⋙ " + ChatColor.BLUE + "Created by blujay",
+                ChatColor.GRAY + "⋙ " + ChatColor.BLUE + "Like my work? You can support me!",
+                ChatColor.GRAY + "⋙ " + ChatColor.BLUE + "Source Code: " + ChatColor.AQUA + ChatColor.UNDERLINE + "github.com/blu-jay/ExplosiveArrows",
+                ChatColor.GRAY + "⋙ " + ChatColor.BLUE + "Donations: " + ChatColor.AQUA + ChatColor.UNDERLINE + "paypal.com/paypalme/blujayxyz",
+                ChatColor.GRAY + "⋙ " + ChatColor.BLUE + "Website: " + ChatColor.AQUA + ChatColor.UNDERLINE + "blujay.xyz",
+                ChatColor.GRAY + "---------------------"
+        );
+        return true;
+    }
+}

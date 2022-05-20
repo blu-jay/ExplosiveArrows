@@ -1,0 +1,33 @@
+name: ExplosiveArrows
+version: '${project.version}'
+main: xyz.blujay.explosivearrows.ExplosiveArrows
+api-version: 1.18
+prefix: ExplosiveArrows
+authors: [ blujay ]
+description: Craft explosive arrows!
+website: blujay.xyz
+commands:
+  ExplosiveArrows:
+    description: Displays the credits for the plugin.
+    usage: /<command>
+    permission: explosivearrows.credits
+  reload:
+    description: Reload the config file for AutoTotem
+    usage: /<command>
+    permission: explosivearrows.reload
+permissions:
+  explosivearrows.*:
+    description: Have access to all permissions of ExplosiveArrows
+    default: op
+  explosivearrows.use:
+    description: Have access to use ExplosiveArrows
+    default: true
+  explosivearrows.craft:
+    description: Have access to craft ExplosiveArrows
+    default: true
+  explosivearrows.credits:
+    description: Permission to use /ExplosiveArrows and view the plugin credits
+    default: true
+  explosivearrows.reload:
+    description: Permission to reload the config file for ExplosiveArrows
+    default: op
