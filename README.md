@@ -9,7 +9,7 @@ Craft ExplosiveArrows with TNT and Arrows!
 No configuration required, just drag and drop!
 (There are some advanced settings in the config.yml if you\'d like to fine tune the plugin!)
 
-<img src="https://web.blujay.xyz/images/ExplosiveArrows.gif" alt="drawing" width="1000"/>
+[![](https://web.blujay.xyz/images/ExplosiveArrows.gif)](https://www.spigotmc.org/resources//)
 
 ------------
 
